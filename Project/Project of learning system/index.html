@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Children Language Learning System</title>
+
+    <!-- google fonts cdn link  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><i class="fas fa-user-graduate"></i>LOGO</a>
+
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#course">course</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="login" class="fas fa-user-circle"></div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form  -->
+
+<div class="login-form">
+
+    <form action="login.php" method="post">
+        <h3>login</h3>
+        <input type="email" name="username" placeholder="username" class="box" required>
+        <input type="password" name="password" placeholder="password" class="box" required>
+        <p>don't have an account? <a href="register.html">register now</a></p>
+        <input type="submit" class="btn" value="login">
+        <i class="fas fa-times"></i>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <h1>education from home</h1>
+    <p>“Education is the most powerful weapon which you can use to change the world.” -Nelson Mandela </p>
+    <a href="lecture/index.html"><button class="btn">get started</button></a>
+
+    <div class="shape"></div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="images/Kids Studying from Home-pana.jpg" alt=""> 
+    </div>
+
+    <div class="content">
+        <h3>why choose us?</h3>
+        <p>Much like in a traditional school, contacting your child’s teacher is easy. Virtual education teachers and parents communicate often by phone, through email, and in the online classroom. Teachers work closely with parents to make sure each child gets the support needed to learn and be successful in the online school environment. Also, with online learning, notes and information are available at your fingertips.</p>
+        <p>With school from home, you can eat breakfast with your child and then walk into the next room, turn on the computer, and begin the school day. This allows families to work around a unique schedule and spend more time together in a learning environment. </p>
+        <a href="#"><button class="btn">learn more</button></a>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- course section starts  -->
+
+<section class="course" id="course">
+
+<h1 class="heading">our popular courses</h1>    
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="images/course1.jpg" alt="">
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="#" class="title">Writing</a>
+            <p>Creative writing encourages kids to exercise their creative minds and practice using their imaginations. It improves their ability to come up with alternatives. This broadens their thought processes, which can lead to success in many areas, including problem solving and analysis.</p>
+            <div class="info">
+                <h3> <i class="far fa-clock"></i> 2 hours </h3>
+                <h3> <i class="far fa-calendar-alt"></i> 6 months </h3>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/course2.jpg" alt="">
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="#" class="title">Reading</a>
+            <p>There are so many wonderful things that reading for pleasure brings to children beyond academic success: comfort and reassurance, confidence and security, relaxation, happiness and fun. It feeds their imagination, helps them to empathise, it even improves their sleeping patterns.</p>
+            <div class="info">
+                <h3> <i class="far fa-clock"></i> 2 hours </h3>
+                <h3> <i class="far fa-calendar-alt"></i> 6 months </h3>
+            </div>
+       
+
+</section>
+
+<!-- course section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading">contact us</h1>
+
+<div class="row">
+
+     <form method="post" action="mailto:abc@gmail.com" enctype="text/plain">
+        <input type="text" placeholder="full name" class="box" required>
+        <input type="email" placeholder="your email" class="box" required>
+        <input type="password" placeholder="your password" class="box" required>
+        <input type="number" placeholder="your number" class="box" required>
+        <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="your address" required></textarea>
+        
+		 <input class="btn" type="submit" value="send now" >
+		
+</form>
+
+    <div class="image">
+        <img src="images/contact-img.png" alt="">
+    </div>
+
+</div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<div class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">Kuala Lumpur</a>
+            <a href="#">Negeri Sembilan</a>
+            <a href="#">Melaka</a>
+ 
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#course">course</a>
+            <a href="#contact">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-map-marker-alt"></i> melaka, malaysia 75000 </p>
+            <p> <i class="fas fa-envelope"></i> abc@gmail.com </p>
+            <p> <i class="fas fa-phone"></i> +0123-456-789 </p>
+        </div>
+
+    </div>
+
+    <h1 class="credit">created by <a href="#">mr. abcd</a> all rights reserved. </h1>
+
+</div>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

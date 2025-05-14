@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="686" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="jButton1" min="-2" pref="73" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel2" alignment="0" min="-2" pref="146" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="0" min="-2" pref="266" max="-2" attributes="0"/>
+                          <Component id="jLabel4" min="-2" pref="216" max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" pref="266" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel7" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel6" min="-2" pref="202" max="-2" attributes="0"/>
+                                  <Component id="jLabel8" min="-2" pref="201" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="60" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="jLabel9" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel6" pref="0" max="32767" attributes="0"/>
+                          <Component id="jLabel2" pref="32" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel7" pref="181" max="32767" attributes="0"/>
+                          <Component id="jLabel3" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel8" max="32767" attributes="0"/>
+                          <Component id="jLabel4" pref="39" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel5" max="32767" attributes="0"/>
+                          <Component id="jLabel9" pref="216" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jScrollPane1" min="-2" pref="562" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="32" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;h1&gt;&lt;font color=&quot;red&quot;&gt;Kheng Pin Cafe&lt;/h1&gt;&#xa;If deep-fried Malaysian food is your thing, then you&#x2019;ll enjoy lor bak. It&#x2019;s a Hokkien/Teochew &lt;br&gt;dish consisting of various meats, seafood, tofu, and vegetables. They&#x2019;re seasoned with &lt;br&gt;five-spice powder and rolled in a thin beancurd skin before being deep-fried and served &lt;br&gt;with chili sauce and loh, which is a sweet sauce thickened with corn starch and beaten &lt;br&gt;eggs.&#xa;&lt;br&gt;Khen Pin Cafe has been cited by leading Singapore and Penang food blogs as having &lt;br&gt;some of the best lor bak in Penang. So shiok ah!&#xa;&lt;br&gt;If you&#x2019;re familiar with Filipio street food, then you may recognize this as kikiam. They&#x2019;re &lt;br&gt;similar but the coating on lor bak is drier, thicker, and crunchier.&#xa;&lt;br&gt;&lt;br&gt;Kheng Pin Cafe&#xa;&lt;br&gt;Address: 80, Jalan Penang, George Town, 10000 George Town, Pulau Pinang, Malaysia&#xa;&lt;br&gt;Operating Hours: 7AM-3PM, Tue-Sun (closed Mon)&#xa;&lt;br&gt;Expect to Pay: About RM 10 (for two)&#xa;&lt;br&gt;How to Get There: Kheng Pin Cafe is a short walk from the corner of Penang Road and Chulia Street. Walk northeast on Penang Road and you&#x2019;ll see it on your left at the corner of Sri Bahari Road.&#xa;&lt;h1&gt;&lt;font color=&quot;red&quot;&gt;Sister Yao&#x2019;s Char Koay Kak at Macalister Lane&lt;/h1&gt;&#xa;Char koay kak is a type of radish cake stir-fried in a thick black soy sauce with preserved radish, bean sprouts, and eggs. It&#x2019;s known as chai tow kueh or &#x201c;carrot cake&#x201d; in Singapore.&#xa;&lt;br&gt;In Penang, this humble stall along Macalister Lane has been serving some of the city&#x2019;s best char koay kak for over forty years. Char koay kak is super tasty. It&#x2019;s savory and a little sweet with a nice gummy texture.&#xa;&lt;br&gt;At first, we weren&#x2019;t too crazy about this dish but it quickly grew on us. This seemed to be the case with many of the Malaysian dishes we tried in Penang.&#xa;&lt;br&gt;It doesn&#x2019;t knock your socks off right away but you develop a taste for it at the end. I loved the contrasting crunchiness of the bean sprouts with the gumminess of the radish cake.&#xa;&lt;br&gt;Sister Yao&#x2019;s Char Koay Kak stall is located outside Seow Fong Lye Cafe along Macalister Lane. The Eoh sisters took over from their father over thirty years ago and have kept the recipe intact.&#xa;&lt;br&gt;We made a quick stop here en route to the Komtar Bus Terminal. If you&#x2019;re taking the bus to Kek Lok Si Temple, then this is a great place to have breakfast or a light snack.&#xa;&lt;br&gt;&lt;br&gt;Sister Yao&#x2019;s Char Koay Kak @ Macalister Lane&#xa;&lt;br&gt;Address: 94, Lorong Macalister, George Town, 10400 George Town, Pulau Pinang, Malaysia&#xa;&lt;br&gt;Operating Hours: 7AM&#x2013;1PM, daily&#xa;&lt;br&gt;Expect to Pay: About RM 5&#xa;&lt;br&gt;How to Get There: From the corner of Penang Road and Chulia Street, walk southwest on Penang Road until you reach Burmah Road. Turn right onto Burma Road then turn left onto Macalister Lane. Sister Yao&#x2019;s Char Koay Kak stall will be on your left around the entrance to Seow Fong Lye Cafe.&#xa;&lt;h1&gt;&lt;font color=&quot;red&quot;&gt;Lok Lok at Medan Selera Padang Brown&lt;/h1&gt;&#xa;This was fun and perhaps our most enjoyable meal in Penang. Like kaiten-zushi restaurants in Japan, there&#x2019;s just something really fun about grabbing whatever food you want whenever you want without having to order from a waiter.&#xa;&lt;br&gt;Lok Lok is a type of communal hot pot dish wherein every ingredient is skewered on sticks so you can easily dunk and retrieve your food from a central pot of boiling water.&#xa;&lt;br&gt;A variety of ingredients are typically offered like fresh seafood, meatballs, fish cakes, mushrooms, dumplings, eggs, and offal. Sticks are labeled with different colors to indicate price, all of which are added up at the end of your meal.&#xa;&lt;br&gt;There are many lok lok restaurants in Penang but we read about this place at Medan Selera Padang Brown, the same food court as the seafood popiah stall, so we visited both on the same day. &#xa;&lt;br&gt;Lok lok is a communal steamboat meal so other diners may share your table. Luckily for us, we arrived at Medan Selera Padang Brown at an off time so we were the only ones there.&#xa;&lt;br&gt;Having the entire spread all to ourselves made it even more fun. I didn&#x2019;t have to elbow anyone for that last stick of cuttlefish! On the table are different sauces like satay and sambal which you can mix to make your own blend. &#xa;&lt;br&gt;&lt;br&gt;Medan Selera Padang Brown&#xa;&lt;br&gt;Address: Jalan Perak, 10400 George Town, Pulau Pinang, Malaysia&#xa;&lt;br&gt;Operating Hours: 5:30&#x2013;11:30PM, daily&#xa;&lt;br&gt;Expect to Pay: About RM 10 per person&#xa;&lt;br&gt;How to Get There: The Padang Brown Food Court is too far to walk from the center of George Town so it&#x2019;s best to take a taxi or use Grab.&#xa;&lt;h1&gt;&lt;font color=&quot;red&quot;&gt;Air Itam Asam Laksa&lt;/h1&gt;&#xa;Like char koay teow, asam laksa is considered one of the best dishes to eat in Penang. It&#x2019;s a tamarind-based laksa so it&#x2019;s more sour compared to the coconut-based curry laksas that are popular in Singapore.&#xa;&lt;br&gt;Interestingly, curry laksa is a common food in Penang as well, but it&#x2019;s referred to as curry mee to distinguish it from asam laksa. When someone in Penang says &#x201c;laksa&#x201d;, they&#x2019;re typically referring to asam laksa.&#xa;&lt;br&gt;Asam laksa at a Penang street food stall in Air Itam Market near Kek Lok Si Temple. It&#x2019;s a famous stall that has a reputation for serving some of the best asam laksa in Penang. This was one of our favorite dishes in Penang. We enjoy curry laksa but we instantly fell in love with the depth of flavor in asam laksa.&#xa;&lt;br&gt;Apart from the noodles and tamarind used as a souring agent, the main ingredients in an asam laksa are mackerel, lemongrass, galangal, and chili. It&#x2019;s garnished with mint, pineapple, onion, a sweet prawn paste, and torch ginger flower.&#xa;&lt;br&gt;The use of pineapple was interesting. I don&#x2019;t recall seeing it but the laksa did have a distinctly chewy and stringy texture that&#x2019;s consistent with pineapple.&#xa;&lt;br&gt;This famous hawker stall at Air Itam market has been serving their signature asam laksa at this very spot for over thirty years.&#xa;&lt;br&gt;&lt;br&gt;Air Itam Asam Laksa&#xa;&lt;br&gt;Address: Jalan Pasar, Paya Terubong, 11500 George Town, Pulau Pinang, Malaysia&#xa;&lt;br&gt;Operating Hours: 10:30AM-7PM, Thurs-Tue (closed Wednesdays)&#xa;&lt;br&gt;Expect to Pay: Around RM 6 per person&#xa;&lt;br&gt;How to Get There: From Komtar Bus Terminal, take bus 203 or 204 to Air Itam (RM 2 each way). It&#x2019;s the last stop so you can&#x2019;t miss it. Air Itam Asam Laksa is located on the corner of Jalan Pasar and the main road of Jalan Paya Terubong.&#xa;&lt;/html&gt;&#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;b&gt;Kheng Pin Cafe&lt;/b&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;b&gt;Sister Yao&#x2019;s Char Koay Kak at Macalister Lane&lt;/b&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;b&gt;Lok Lok at Medan Selera Padang Brown&lt;/b&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;b&gt;Air Itam Asam Laksa&lt;/b&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+    </Component>
+  </SubComponents>
+</Form>

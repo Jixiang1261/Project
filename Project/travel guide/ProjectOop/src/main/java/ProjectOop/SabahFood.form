@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="600" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="jToggleButton1" min="-2" pref="63" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel4" min="-2" pref="176" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" pref="168" max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" pref="168" max="-2" attributes="0"/>
+                          <Component id="jLabel8" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel3" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="jLabel7" alignment="0" min="-2" pref="162" max="-2" attributes="0"/>
+                          <Component id="jLabel9" alignment="0" min="-2" pref="160" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jToggleButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="jLabel3" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jLabel6" pref="166" max="32767" attributes="0"/>
+                  <Component id="jLabel7" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel5" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel8" max="32767" attributes="0"/>
+                  <Component id="jLabel9" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Component id="jScrollPane1" pref="505" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JToggleButton" name="jToggleButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;h1&gt;&lt;font color=&apos;red&apos;&gt;Kah Hiong Ngiu Chap&lt;/h1&gt; This noodle soup dish is considered a signature dish of Sabah. &apos;Ngiu chap&apos; means beef mix and the beef mix here includes livers, hearts, intestines, and tendons of bovines. This food of Sabah is cooked with rice vermicelli noodles in a scrumptious, hearty broth. Sometimes the dish includes a small undertone of radish. Ngiu chap noodles are served with a side of spicy chilli sauce to give it an extra kick of flavour.&lt;br&gt;&lt;br&gt;Location:Block A Shop, No. 2-0-10 Kolam Centre Phase 2, Ground Floor, Jalan Lintas, Kolam Centre, Luyang, Kota Kinabalu, Sabah, Malaysia.&lt;br&gt;Contact: +60 88-254161&lt;br&gt;Opening Hours:Daily 7am &#x2013; 3pm &lt;html&gt; &lt;h1&gt;&lt;font color=&apos;red&apos;&gt;Yee Fung Laksa (&#x6021;&#x4e30;&#x53fb;&#x6c99;)&lt;/h1&gt;This 30 year old teahouse on Gaya Street has a weekday-only chicken and sesame oil rice dish. Unlike the usual sesame oil rice dish, which uses black soy sauce, chicken and white rice, this restaurant uses sesame oil and sesame oil rice to cook the rice. The sesame oil rice is not only well cooked, but also the chicken, which is not cooked to perfection. It was so satisfying to eat with all the ingredients!&lt;br&gt;&lt;br&gt;Location:127, Jalan Gaya, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah &lt;br&gt;Contact:+60 88-312 042&lt;br&gt;Opening Hours:Daily 7am &#x2013; 6pm&lt;html&gt; &lt;h1&gt;&lt;font color=&apos;red&apos;&gt;Fish curry at Jothy&#x2019;s Fish Head Curry Banana Leaf Restaurant&lt;/h1&gt;No matter which part of Malaysia you go to, there&#x2019;s bound to be a recommended banana leaf place. For Kota Kinabalu, their pride lies with Jothy&#x2019;s.   They serve authentic South Indian cuisine, specialising in their fish curry (RM12). Made with their own special mix of herbs and spices, it&#x2019;s spicy, thick, and goes extremely well with their banana leaf rice set (RM7). Another chef&#x2019;s recommendation is the rava dosai, made of semolina flour, ginger, and a mixture of Indian spices served with chutney. Not like the usual dosai, this one tastes savoury with a crepe-like texture. &lt;br&gt;&lt;br&gt;Location:Block 1, Lot G1-0, 9, Api-api Centre, 88000 Kota Kinabalu, Sabah &lt;br&gt;Contact:+60 88-261 595&lt;br&gt;Opening Hours: 11am &#x2013; 9pm &lt;br&gt;Closed on:Thursday &amp; Friday&lt;html&gt; &lt;h1&gt;&lt;font color=&apos;red&apos;&gt;Kedai Kopi Seng Hing &#x6210;&#x5174;&#x8336;&#x9910;&#x5ba4;&lt;/h1&gt;The restaurant is famous for its signature Tongyan noodles (a spicy, spicy soup with a choice of seafood toppings), one of the reasons why it is always full at brunch time. The restaurant is also known for its &quot;egg sliders&quot;, which are simple but irresistibly tasty dishes of kway teow noodles and vegetables, meat or seafood that have been quickly stir-fried and topped with an egg wash. As well as the food, the drinks are no less impressive, such as iced lemon tea, iced milo or iced milk tea, which are authentic, classic and excellent.&lt;br&gt;&lt;br&gt;Location:Block G, Lot 10, Lorong Sinsuran 2, Sinsuran Complex, 88000 Kota Kinabalu, Sabah &lt;br&gt;Contact:+6019-810 5255&lt;br&gt;Opening Hours:Daily 7am &#x2013; 4pm "/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;b&gt;Kah Hiong Ngui Chap&lt;/b&gt; &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;b&gt;Yee Fung Laksa (&#x6021;&#x4e30;&#x53fb;&#x6c99;)&lt;/b&gt; &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;b&gt;Fish curry at Jothy&#x2019;s Fish Head Curry Banana Leaf Restaurant&lt;/b&gt; &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;b&gt;Kedai Kopi Seng Hing &#x6210;&#x5174;&#x8336;&#x9910;&#x5ba4;&lt;/b&gt; &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+    </Component>
+  </SubComponents>
+</Form>

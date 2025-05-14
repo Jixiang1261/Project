@@ -1,0 +1,52 @@
+<?php 
+session_start();
+$conn = mysqli_connect('localhost', 'root', '','');
+mysqli_select_db($conn,"children");
+
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+$username = $_POST['username'];
+$password = $_POST['password'];
+
+$sql = mysqli_query($conn, "SELECT * FROM user WHERE username = '$username'");
+$sql2 = mysqli_query($conn,"SELECT * FROM user WHERE password = '$password'");
+
+
+// Store Session Data
+$_SESSION['username']= $_POST['username'];
+
+
+
+
+	if(mysqli_num_rows($sql))
+		{
+			if(mysqli_num_rows($sql2))
+			
+				{
+					
+			
+				echo ("<script LANGUAGE='JavaScript'>
+				window.alert('Login successfull');
+				window.location.href='index.html';
+				</script>");
+					
+					$conn->close();
+
+					
+				}
+				
+				
+		}
+		
+			else
+				{
+					echo ("<script LANGUAGE='JavaScript'>
+				window.alert('Invalid username or password');
+				window.location.href='index.html';
+				</script>");
+				}
+		
+
+?>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="600" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel6" min="-2" pref="152" max="-2" attributes="0"/>
+                      <EmptySpace pref="24" max="32767" attributes="0"/>
+                      <Component id="jLabel7" min="-2" pref="152" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="jToggleButton1" min="-2" pref="105" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel2" min="-2" pref="152" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="0" min="-2" pref="146" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel3" min="-2" pref="123" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel8" min="-2" pref="152" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel9" min="-2" pref="152" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+              <Component id="jToggleButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel3" alignment="3" max="32767" attributes="0"/>
+                  <Component id="jLabel2" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel6" alignment="1" min="-2" pref="160" max="-2" attributes="0"/>
+                  <Component id="jLabel7" min="-2" pref="160" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel5" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                  <Component id="jLabel4" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel8" alignment="3" min="-2" pref="160" max="-2" attributes="0"/>
+                  <Component id="jLabel9" alignment="3" min="-2" pref="160" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;h1&gt;&lt;font color=&apos;red&apos;&gt;Mira Cake House&lt;/h1&gt;For most Malaysians, Mira Cake House needs no introduction. After all, it is the largest franchise of kek lapis in the country! But for those who are not from Malaysia, Mira Cake House is a layer cake franchise established in Sarawak and originally operated as a family business. Their kek lapis are more moist compared to other shops and come in many different flavours and colours! Their cakes are baked fresh daily and are also great souvenirs as their cakes can be kept for up to three months if kept in the fridge.&lt;br&gt;&lt;br&gt;Location:Petra Jaya, 44A, Jalan Brooke Tebingan Permaidani BGS, Kampung Boyan, Kampung Gersik, 93050 Kuching, Sarawak, Malaysia&lt;br&gt;Contact: +60-82440077&lt;br&gt;Opening Hours:8am &#x2013; 12pm Daily &lt;html&gt; &lt;h1&gt;&lt;font color=&apos;red&apos;&gt;Noodle Descendants&lt;/h1&gt;If you are looking for the best kolo mee in Kuching, then check out Noodle Descendants. Noodle Descendants on Jalan Padungan has been around since 1957 when the current owners&#x2019; grandparents started selling this beloved noodle dish. Despite having been passed down through generations (and having changed a few names), the noodles and zheng have maintained their good quality.&lt;br&gt;&lt;br&gt;Location:No. 188, Jln Padungan, 93100 Kuching, Sarawak, Malaysia&lt;br&gt;Contact: +60-82523197&lt;br&gt;Opening Hours:8.30 am &#x2013; 2.00 pm Daily &lt;html&gt; &lt;h1&gt;&lt;font color=&apos;red&apos;&gt;Choon Hui Cafe&lt;/h1&gt;One of the must eat food in Sarawak is Sarawak Laksa.  One of the best Laksa in Kuching can be found at Chong Hui Cafe at Ban Hock Road. The late Anthony Bourdain fell in love with this hearty delicacy and made his iconic &#x201c;Breakfast of Gods&#x201d; quip!&lt;br&gt;&lt;br&gt;Location:34, Jalan Ban Hock, 93100 Kuching, Sarawak, Malaysia&lt;br&gt;Contact:+60-82243857&lt;br&gt;Opening Hours:6.30 &#x2013; 10.00am&lt;br&gt;Closed on:Monday&lt;html&gt; &lt;h1&gt;&lt;font color=&apos;red&apos;&gt;Number 6 Kopitiam&lt;/h1&gt;Believe it or not, these days, you can find Kacangma Chicken in plenty of food courts/hawker centres in Kuching. However, that are one establishments that deserve special mention are the stalls at Number 6 Kopitiam. Stalls at Number 6 Kopitiam are the locals&#x2019; favourites and, as they say, the best way to find the best food in any given city is to eat as the locals do!&lt;br&gt;&lt;br&gt;Location:Tabuan Heights, 93350 Kuching, Sarawak, Malaysia&lt;br&gt;Contact:+60 12-857 3313&lt;br&gt;Opening Hours:8.00am &#x2013; 8.00pm&lt;br&gt;Closed on:Tuesday"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JToggleButton" name="jToggleButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;b&gt;Mira Cake House&lt;/b&gt; &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;b&gt;Noodle Descendants&lt;/b&gt; &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;b&gt;Chonn Hui Cafe&lt;/b&gt; &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;b&gt;Number 6 Kopitiam&lt;/b&gt; &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+    </Component>
+  </SubComponents>
+</Form>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="700" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="button1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel6" min="-2" pref="130" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jLabel7" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="152" max="-2" attributes="0"/>
+                                      <Component id="jLabel2" min="-2" pref="95" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel5" min="-2" pref="122" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jLabel4" min="-2" pref="122" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel9" min="-2" pref="130" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jLabel8" min="-2" pref="130" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="11" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="725" max="32767" attributes="0"/>
+                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" pref="494" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <Component id="button1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jLabel2" min="-2" pref="32" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jLabel6" max="32767" attributes="0"/>
+                  <Component id="jLabel7" pref="153" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel5" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="jLabel4" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel8" alignment="3" min="-2" pref="137" max="-2" attributes="0"/>
+                  <Component id="jLabel9" alignment="3" min="-2" pref="137" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="jLabel3" min="-2" pref="41" max="-2" attributes="0"/>
+                  <EmptySpace pref="415" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;h1&gt;&lt;font color=&apos;red&apos;&gt;Pertonas Twin Towers&lt;/h1&gt;The Petronas Twin Towers are one of Kuala Lumpur&apos;s iconic cityscapes. Located in the heart of Kuala Lumpur, the 452-metre high 88-storey towers stand side by side, connected by a trestle bridge and inspired by the teachings of Islam. One of the twin towers is currently used by PETRONAS and the other is an office building for rent, and a sky bridge is located between the 40th and 41st floors to allow easy access between the buildings. The building is easily visible from all parts of Kuala Lumpur. The building is spectacular, like two tall spires piercing the sky.&lt;br&gt;&lt;br&gt;Location:Suria KLCC, Kuala Lumpur City Centre, 50088 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia&lt;br&gt;Contact: +60 3-2382 2828&lt;br&gt;Opening Hours:Daily 10am &#x2013; 10pm &lt;html&gt; &lt;h1&gt;&lt;font color=&apos;red&apos;&gt;KL Tower&lt;/h1&gt;Located 94 meters above sea level on Coffee Hill, KL Tower is a great place to get a bird&apos;s eye view of the metropolis. 421 meters above sea level gives it an invisible elevation of 515 meters, but in fact KL Tower was originally a wireless communication tower to enhance the quality of wireless communication and the clarity of radio transmissions, and visitors can overlook the entire city of Kuala Lumpur from the observation deck and revolving restaurant on the tower. Although not as famous as the Petronas Twin Towers, the KL Tower is a great place to see the city of Kuala Lumpur, with an observation deck about 100 meters higher than the 41st floor of the Twin Towers, and a reference to the Muslim minarets, with decorative glass windows at the top of the tower modelled on the Iranian royal palaces. The design of the entire Kuala Lumpur Tower reflects Malaysia&apos;s long-standing Islamic heritage with its use of Arabic script, Islamic-style tiles, classic Islamic floral motifs with intricate decorative patterns and calming, solemn colours.&lt;br&gt;&lt;br&gt;Location:No. 2 Jalan Punchak Off, Jalan P. Ramlee, 50250 Kuala Lumpur, Malaysia&lt;br&gt;Contact: +60-3-20205444&lt;br&gt;Opening Hours:Thurday Saturday Sunday 10am &#x2013; 10pm &lt;br&gt;   Monday Tuesday wednesday Friday 11am - 7pm&lt;html&gt; &lt;h1&gt;&lt;font color=&apos;red&apos;&gt;Zoo Negara Malaysia&lt;/h1&gt;The National Zoo of Malaysia is located on the outskirts of Kuala Lumpur, the capital of Malaysia, in a densely forested area with lakes and streams dotted around the landscape. The pristine and beautiful rainforest is home to over 400 species of animals from around the world, 90% of which live in large open nets and simulated habitats. The zoo is home to a variety of animal breeding areas such as the Bird House, Reptile House, Orangutan House, Grassland Trail and Mammal World, as well as a special &apos;Panda House&apos; for a pair of giant pandas imported from China, where you can observe the animals&apos; posture and habits up close and interesting.RM50 for foreign visitors with I-KAD, work certificate, dependent pass, RM88 for other foreign visitors and RM45 for Malaysian visitors.&lt;br&gt;&lt;br&gt;Location:Jalan Taman Zooview, Taman Zooview, 68000 Ampang, Selangor, Malaysia&lt;br&gt;Contact: +60 18-233 1200&lt;br&gt;Opening Hours:Daily 9am - 5pm&lt;html&gt; &lt;h1&gt;&lt;font color=&apos;red&apos;&gt;Aquaria KLCC&lt;/h1&gt;Located on the ground floor of the Twin Towers Convention Centre, the Aquarium has a bit of a Sydney Opera House look to it. It is home to around 5,000 underwater creatures of over 150 species from all over the world, including Malaysia. The aquarium is located in the tropics, so the aquarium&apos;s fish population is mainly tropical, and to create a suitable environment for them, the aquarium uses 9,000 kilograms of salt every month. Two of the aquarium&apos;s highlights are the 5.3 meter high circular transparent water column in the center of the aquarium, which houses a plank tree, and the colorful schools of fish swimming around it. The other is a large 7-metre wide aquarium where shark feeding shows are held daily, so remember to ask the attendants when you enter.RM49 for adults and RM39 for children/seniors for Malaysian visitors. International visitors RM71 per adult, RM61 per child/senior&lt;br&gt;&lt;br&gt;Location:Kuala Lumpur Convention Centre, Jalan Pinang, Kuala Lumpur City Centre, 50088 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia&lt;br&gt;Contact: +60-3-23331888&lt;br&gt;Opening Hours:Daily 10am - 7pm"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="java.awt.Button" name="button1">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;b&gt;KL Tower&lt;/b&gt; &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;b&gt;Pertonas Twin Towers&lt;/b&gt; &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;b&gt;Aquaria KLCC&lt;/b&gt; &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;b&gt;Zoo Negara Malaysia&lt;/b&gt; &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[35, 15]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[35, 15]"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[35, 15]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+    </Component>
+  </SubComponents>
+</Form>

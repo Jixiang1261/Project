@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="742" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="375" max="32767" attributes="0"/>
+                      <Component id="jButton1" min="-2" pref="73" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel3" min="-2" pref="218" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel5" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel4" min="-2" pref="183" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel6" min="-2" pref="218" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel8" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel7" min="-2" pref="218" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel9" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel2" min="-2" pref="42" max="-2" attributes="0"/>
+                          <Component id="jLabel4" min="-2" pref="37" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel3" max="32767" attributes="0"/>
+                          <Component id="jLabel5" pref="166" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel8" min="-2" pref="41" max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" pref="29" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel7" max="32767" attributes="0"/>
+                          <Component id="jLabel9" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jScrollPane1" alignment="0" min="-2" pref="466" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="30" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;h1&gt;&lt;font color=&quot;red&quot;&gt;Langkawi Skybridge Cable Car&lt;/h1&gt;&#xa;The Langkawi Cable Car, also known as Langkawi SkyCab, is one of the major attractions in &lt;br&gt;Langkawi Island, Kedah, Malaysia. It provides an aerial link from the Oriental Village at &lt;br&gt;Teluk Burau to the peak of Gunung Machinchang, which is also the location of the &lt;br&gt;Langkawi Sky Bridge. The total length is 2.2 km, with a journey time from the base to the &lt;br&gt;top of around 15 minutes. It was officially opened in 2003. Langkawi Cable Car is located &lt;br&gt;just north of Telaga Harbour, Pantai Kok, with the entrance within &apos;Oriental Village&apos; at the &lt;br&gt;foothill of the Mat Chincang mountain range. It is located to the north-west of the &lt;br&gt;Langkawi International Airport, on the west coast of the main island of Langkawi. It is &lt;br&gt;approximate 30 minutes drive from Kuah town and 15 minutes drive from Langkawi &lt;br&gt;International Airport.&#xa;&lt;br&gt;&lt;br&gt;Address: Jalan Telaga Tujuh, 07000 Langkawi, Kedah&#xa;&lt;br&gt;Hours: &#xa;&lt;br&gt;Friday&#x9;9:30am&#x2013;6pm&#xa;&lt;br&gt;Saturday&#x9;9:30am&#x2013;6pm&#xa;&lt;br&gt;Sunday&#x9;9:30am&#x2013;6pm&#xa;&lt;br&gt;Monday&#x9;10am&#x2013;6pm&#xa;&lt;br&gt;Tuesday&#x9;10am&#x2013;6pm&#xa;&lt;br&gt;Wednesday&#x9;10am&#x2013;6pm&#xa;&lt;br&gt;Thursday&#x9;10am&#x2013;6pm&#xa;&lt;br&gt;Phone: 04-959 4225&#xa;&lt;br&gt;Line length: 2200 meter&#xa;&lt;h1&gt;&lt;font color=&quot;red&quot;&gt;Pulau Payar&lt;/h1&gt;&#xa;Payar Island is an island in Kedah, Malaysia. Payar Island status as a marine park offers protection for its diverse marine life. Payar Island is also a snorkelling and diving site famous for its corals. The Payar Island Marine Park is situated in the northern part of the Straits of Melaka, 19 nautical miles south of Langkawi and encompasses the islands of Payar, Lembu, Segantang and Kaca which are surrounded by coral reefs. &#xa;&lt;br&gt;The marine park teems with a diversity of marine life and vegetation. Many endangered species of fishes and marine organisms live within the sanctuary. Measuring 2 km long and 1/4 km wide, Payar Island is the most popular of the islands as its sheltered waters are ideal are for snorkelling, diving and swimming. Among the dive spots is the &quot;Coral Garden&quot;, an area covered with bright, multi-hued soft corals. There are several sandy beaches on Payar &#xa;&lt;br&gt;island for picnics as well as hiking trails for those who wish to explore the island. Just off the beach, one can indulge in the experience of feeding baby sharks. Facilities include gazebos, picnic tables, barbecue pits and restrooms at selected areas. &#xa;&lt;br&gt;&lt;br&gt;Address: Jalan Telaga Tujuh, 07000 Langkawi, Kedah.&#xa;&lt;h1&gt;&lt;font color=&quot;red&quot;&gt;Paddy Museum&lt;/h1&gt;&#xa;The Kedah Paddy Museum is nothing to do with Irishmen. It is dedicated to the rice plant, paddy, the world&apos;s most important crop.&#xa;&lt;br&gt;The word &quot;paddy&quot; is derived from the Malay word padi meaning rice plant so it is appropriate that one of the world&apos;s few rice museums should be in Malaysia. The other rice museums that I am aware of are the Gohan Museum in Yurakucho, Japan and IRRI&apos;s RiceWorld in Los Ba&#xf1;os, Philippines.&#xa;&lt;br&gt;The Paddy Museum is big, with an area of 12,000 square meters spread over three floors.&#xa;&lt;br&gt;The architecture of the building is designed to symbolize bushels of harvested rice stalks.&#xa;&lt;br&gt;Rice motifs decorate the external facade and are used on railings in the interior.&#xa;&lt;br&gt;The museum explains the rice cultivation process, displays different varieties of rice, showcases equipment and tools used in rice cultivation through the ages and in various countries.&#xa;&lt;br&gt;On entering the museum I was directed to a spiral staircase which has been decorated to resemble the interior of a cave, possible inspired by the cave in Gunung Keriang which is located a short distance away.&#xa;&lt;br&gt;The stairs lead to the top floor of the museum and I emerged onto a revolving platform equipped with forty cinema seats from which visitors can admire a 360 degree diorama and mural which has been painted on the entire inside wall of the upper level.&#xa;&lt;br&gt;Apparently the mural was painted by a team of 60 North Korean artists and I have to say they did an excellent job in creating a realistic panorama of the paddy fields and scenery found in this part of Kedah.&#xa;&lt;br&gt;&lt;br&gt;Opening Hours and Admission Charges&#xa;&lt;br&gt;Open daily from 9am to 5pm (Closed between 12:30pm and 2:30pm on a Friday).&#xa;&lt;br&gt;Closed on Hari Raya Aidilfitri and Hari Raya Aidiladha.&#xa;&lt;br&gt;Adults RM 3&#xa;&lt;br&gt;Children (ages 7 - 12) RM 1&#xa;&lt;br&gt;Camera Charge RM 2&#xa;&lt;br&gt;&lt;br&gt;Address:&#xa;&lt;br&gt;brMuzium Padi&#xa;&lt;br&gt;Lot 798 Jalan Gunung Keriang, Mukim Gunung Keriang&#xa;06570 Alor Setar, Kedah Darul Aman.&#xa;&lt;br&gt;Tel: 04 735 1315&#xa;&lt;h1&gt;&lt;font color=&quot;red&quot;&gt;Underwater World Langkawi&lt;/h1&gt;&#xa;Underwater World Langkawi (UWL) is one of the largest marine and freshwater aquaria in South East Asia. Since the start of its operation on 26 August 1995, it has become one of the must visit tourist destinations in Langkawi and has attracted a large number of foreign as well as local tourists.&#xa;&lt;br&gt;The concept and theme of Underwater World Langkawi are geared towards&#xa;&lt;br&gt;Research &amp; Development, Education and Entertainment. It is built to raise awareness on the importance of conserving our precious aquatic life forms, thus creating understanding of the deep and inseparable bond between man and nature.&#xa;&lt;br&gt;At Underwater World Langkawi, we have three main sections, which displays Tropical Rainforest &amp; River Ecosystem, Temperate &amp; Sub-Antarctic and Marine Section.&#xa;&lt;br&gt;Other attractions include the Freshwater Fish Section, the Seashell Display, the Koi Pond, the Reptilium Section, Invertebrate Section, the Coral Reef Section and the Poisonous &amp; Venomous Section.&#xa;&lt;br&gt;Visitors are thus provided with a one-stop shopping, eating and entertainment package, all of which are available within one area. &#xa;&lt;br&gt;Langkawi Underwater World&#xa;&lt;br&gt;&#x2022;&#x9;Opening Hours:&#xa;&lt;br&gt;09:30 &#x2013; 18:30 Monday &#x2013; Friday&#xa;&lt;br&gt;09:30 &#x2013; 22:30 Friday &#x2013; Sunday&#xa;&lt;br&gt;&#x2022;&#x9;Address: Zon Pantai Cenang, Mukim Kedawang&#xa;&lt;br&gt;&#x2022;&#x9;Tel: +604 955 6100&#xa;&lt;/html&gt;&#xa;&#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;b&gt;Langkawi Skybridge Cable Car&lt;/b&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;b&gt;Pulau Payar&lt;/b&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;b&gt;Paddy Museum&lt;/b&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;b&gt;Underwater World Langkawi&lt;/b&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+    </Component>
+  </SubComponents>
+</Form>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="738" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="jButton1" min="-2" pref="73" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel3" min="-2" pref="218" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel5" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel2" min="-2" pref="178" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="jLabel4" min="-2" pref="196" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel6" min="-2" pref="196" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                              <Component id="jLabel8" min="-2" pref="184" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="21" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel7" min="-2" pref="218" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel9" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel2" min="-2" pref="36" max="-2" attributes="0"/>
+                          <Component id="jLabel4" min="-2" pref="27" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel3" max="32767" attributes="0"/>
+                          <Component id="jLabel5" pref="158" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel6" min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="jLabel8" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel7" max="32767" attributes="0"/>
+                          <Component id="jLabel9" pref="197" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jScrollPane1" min="-2" pref="506" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="32" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;h1&gt;&lt;font color=&quot;red&quot;&gt;Batu Ferringhi Beach&lt;/h1&gt;&#xa;Batu Ferringhi Beach is an adventure land where you can get your adrenalin racing while on a &lt;br&gt;leisure holiday. The availability of Jet Skis and Parasailing sports by the seaside is a major lure &lt;br&gt;that pulls every tourist who visits this town in Penang.&#xa;&lt;br&gt;Apart from just laying around the beach and taking a sunbath, other things you can do here &lt;br&gt;are getting a buggy ride on the golden sand, go deep sea fishing or revel in a banana boat &lt;br&gt;ride.&#xa;&lt;br&gt;&lt;br&gt;Location: 11km from City Center, George Town&#xa;&lt;br&gt;&lt;br&gt;Timings: A few hours before sunset is apt so that you have enough time to beach stuff &lt;br&gt;and adventure sports before watching the mesmeric sunset.&#xa;&lt;h1&gt;&lt;font color=&quot;red&quot;&gt;Glass Museum Penang&lt;/h1&gt;&#xa;Choose to visit the Glass Museum Penang during your visit, and you are sure to rave about its build and beauty for the rest of your life. Pictures from your trip cannot get any better than when clicked in this museum where you can confuse the image when standing in the &lt;br&gt;large kaleidoscope.&#xa;&lt;br&gt;The display of items made from recycled glass is creativity personified. You could excel in it too if you partake in the craft class and take it back home as an irreplaceable memory.&#xa;&lt;br&gt;&lt;br&gt;Location: Jalan Burma, Geroge Town&#xa;&lt;br&gt;&lt;br&gt;Timings: 09.30 a.m. to 06.00 p.m.; 09.30 a.m. to 05.00 p.m. on Saturday (Closed on Sundays).&#xa;&lt;h1&gt;&lt;font color=&quot;red&quot;&gt;The Top Komtar Penang&lt;/h1&gt;&#xa;Theme parks and entertainment needn&#x2019;t be only from the outdoor roller coaster and water slides; the Top Komtar Penang is amongst those places to visit in Penang that entertainment to great heights, literally.&#xa;&lt;br&gt;This tall building conducts entertainment activities like Magic Mirror Maze, 7D Discovery Motion Theatre, Ocean Explorer, Window of the Top, DanceOki, Rainbow Skywalk, etc. Keep yourself full by stopping by at one of the several restaurants in-between all the fun.&#xa;&lt;br&gt;&lt;br&gt;Location: Jalan Penang, George Town&#xa;&lt;br&gt;&lt;br&gt;Timings: 11.00 a.m. to 08.00 p.m.; 11.00 a.m. to 09.00 p.m. on Saturday and Sunday&#xa;&lt;br&gt;&lt;br&gt;Location: 11km from City Center, George Town.&#xa;&lt;br&gt;&lt;br&gt;Timings: A few hours before sunset is apt so that you have enough time to beach stuff and adventure sports before watching the mesmeric sunset.&#xa;&lt;h1&gt;&lt;set font=&quot;red&quot;&gt;Kek Lok Si&lt;/h1&gt;&#xa;Kek Lok Si is a wonderful Buddhist temple built in away from Penang&#x2019;s shore. This architectural structure that is a haven for Buddhist pilgrims and Chinese teachings houses a large Buddha statue apart from thousands of his pictures, more than a hundred carvings, and some sculptures making it a traditional home &lt;br&gt;for both Mahayana Buddhism and Theravada Buddhism.&#xa;&lt;br&gt;You can only imagine the backdrop that this scenic temple has considering it is built in the hill station on the foot of Air Itam Mountain. The ponds hurling with fishes and the lush gardens add to the equanimity of this place.&#xa;&lt;br&gt;&lt;br&gt;Location: 3km from Penang Hill Station&#xa;&lt;br&gt;&lt;br&gt;Timings: 09.00 a.m. to 06.00 p.m.&#xa;&#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &#xa;&lt;b&gt;Batu Ferringhi Beach&lt;/b&gt; &#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &#xa;&lt;b&gt;Glass Museum Penang&lt;/b&gt; &#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &#xa;&lt;b&gt;The Top Komtar Penang&lt;/b&gt; &#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &#xa;&lt;b&gt;Kek Lok Si&lt;/b&gt; &#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+    </Component>
+  </SubComponents>
+</Form>

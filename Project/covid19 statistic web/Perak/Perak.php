@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Perak</title>
+     <style type=text/css>
+      .bold {
+		  font-weight: bold;
+		  font-size: 20px;
+		  }
+		  
+	  .other{
+		  font-size: 20px;
+		  }
+	  
+	  table, th, td {
+      border: 3px solid black;
+      }
+	  
+	   h1 {
+	   font-size: 60px;
+	   color:blue;
+       }
+	  
+	   h2 {
+	   font-size: 30px;
+	   color:blue;
+       }
+	   
+       #myChart {
+       position: absolute;
+       left: 50%;
+       top: 5%;
+	   }
+
+       #myChart1 {
+       position: absolute;
+       left: 50%;
+       top: 40%;
+	   }
+
+       #myChart2 {
+       position: absolute;
+       left: 50%;
+       top: 75%;
+	   }
+
+     </style>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+
+<body>
+   <?php
+    //connect to database
+	$cont = mysqli_connect('localhost', 'root', '');
+	
+   	//ii check
+	if(!$cont){
+		  echo("error");
+	}
+	
+	//select database
+	if(!(mysqli_select_db($cont, "malaysia"))){
+		  echo("error2");
+	}
+	
+	//select all
+   $query = "SELECT * FROM perak";
+   
+   	if(!($result = mysqli_query($cont, $query))){
+		  echo("Failed to run command");
+	}
+	echo "<h1>The Status of Perak</h1>";
+		echo "<table>";
+		echo "<tr>
+	         <td style='text-align:center' class=\"bold\">Date:</td>
+	         <td style='text-align:center' class=\"bold\">Death Cases:</td>
+			 <td style='text-align:center' class=\"bold\">Confirmed Cases:</td>
+			 <td style='text-align:center' class=\"bold\">Hospital Admission:</td>
+		 </tr>";
+    while ($row = mysqli_fetch_row($result)){
+	
+	$row[3]=str_replace("<br>","\n",$row[3]);
+
+		 
+	echo "<tr>
+	      <td style='text-align:center' class=\"other\">$row[0]</td>  
+          <td style='text-align:center' class=\"other\">$row[1]</td>	
+          <td style='text-align:center' class=\"other\">$row[2]</td>
+          <td style='text-align:center' class=\"other\">$row[3]</td>		  
+	     </tr>";
+		 
+
+    } 
+	echo "</table>";
+	mysqli_close($cont);
+   ?>
+   
+   <a href="admin.html"><h2>Edit the Data</h2></a>
+   <a href="..\west.html"><h2>Back to West Malaysia</h2></a>
+   <a href="..\index.html"><h2>Back to Main Page</h2></a>
+
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+<canvas id="myChart1" style="width:100%;max-width:600px"></canvas>
+<canvas id="myChart2" style="width:100%;max-width:600px"></canvas>
+<script>
+  var xValues = ["2022-03-16", "2022-03-17", "2022-03-18", "2022-03-19", "2022-03-20", "2022-03-21", "2022-03-22"];
+  var yValues = [9, 18, 11, 9, 9, 12, 8];
+  var barColors = "red";
+
+  new Chart("myChart", {
+    type: "bar",
+    data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]},
+    options: {
+    legend: {display: false},
+    title: {display: true,
+     text: "Death Cases in Perak:"
+ }}});
+
+  var xValues = ["2022-03-16", "2022-03-17", "2022-03-18", "2022-03-19", "2022-03-20", "2022-03-21", "2022-03-22"];
+  var yValues = [1446, 1561, 1703, 1403, 1300, 1015, 1170];
+  var barColors = "blue";
+
+  new Chart("myChart1", {
+    type: "bar",
+    data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]},
+    options: {
+    legend: {display: false},
+    title: {display: true,
+     text: "Confirmed Cases in Perak:"
+ }}});
+
+  var xValues = ["2022-03-16", "2022-03-17", "2022-03-18", "2022-03-19", "2022-03-20", "2022-03-21", "2022-03-22"];
+  var yValues = [200, 195, 197, 174, 150, 139, 152];
+  var barColors = "green";
+
+  new Chart("myChart2", {
+    type: "bar",
+    data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]},
+    options: {
+    legend: {display: false},
+    title: {display: true,
+     text: "Hospital Admission in Perak:"
+ }}});
+
+</script>
+</body>
+
+</html>

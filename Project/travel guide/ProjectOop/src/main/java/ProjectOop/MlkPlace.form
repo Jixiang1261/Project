@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="764" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="jButton5" min="-2" pref="68" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel2" min="-2" pref="193" max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" pref="219" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel4" min="-2" pref="195" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel5" min="-2" pref="215" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel6" alignment="0" min="-2" pref="182" max="-2" attributes="0"/>
+                          <Component id="jLabel7" alignment="0" min="-2" pref="219" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="33" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel8" min="-2" pref="175" max="-2" attributes="0"/>
+                          <Component id="jLabel9" min="-2" pref="215" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel2" alignment="3" min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="3" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel3" max="32767" attributes="0"/>
+                          <Component id="jLabel5" pref="163" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel8" max="32767" attributes="0"/>
+                          <Component id="jLabel6" pref="34" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel7" max="32767" attributes="0"/>
+                          <Component id="jLabel9" pref="182" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jScrollPane1" pref="609" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButton5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;h1&gt;&lt;font color=&quot;red&quot;&gt;Baba Nyonya Heritage Museum in Malacca&lt;/h1&gt;&#xa;At the beginning of the 16th century, merchants and entrepreneurs were lured to Malacca&#x2019;s shores due to stories of the city&#x2019;s burgeoning success and wealth. In particular the city saw an influx of Chinese traders who arrived in droves in an effort to escape Manchu rule. These entrepreneurs went on to marry local Malay women &#x2013; descendents of these marriages were known as Peranakan or &#x2018;Straits-born Chinese&#x2019;.&#xa;&lt;br&gt;Their relative success resulted in these expatriate merchants becoming the principal wealth catalysts of the thriving city. The &#x2018;Babas&#x2019; (male Sino-Malays) flaunted their affluence by purchasing Dutch townhouses and transforming them into out-and-out palaces. The interiors of these homes were opulent and stuffed to the tee with Dutch-influenced fixtures including hand-painted tiles and Victorian lamps.&#xa;&lt;h2&gt;Makanan Peranakan&lt;/h2&gt;&#xa;Yet Peranakan culture as a whole is largely defined by its cuisine &#x2013; makanan (food) Nyonya. Malaysians laud it as one their major food heritages and Malacca&#x2019;s culture is irrevocable defined by it. An amalgamation of Malay and Chinese traditions, Nyonya cuisine comprises dishes with out-of-the-ordinary vegetables, curries thickened by coconut milk and sauces that are delightfully pungent. &#xa;&lt;br&gt;Noteworthy though is the social etiquette of eating &#x2013; locals use their fingers, not chopsticks, to eat &#x2013; a fact that belies their Chinese ancestral roots and establishes Nyonya culture as one of Malaysia&#x2019;s veritable legacies. &#xa;&lt;h2&gt;Heritage House&lt;/h2&gt;&#xa;Located at No. 48-50 along Jalan Tun Cheng Lock in Malacca, the Baba-Nyonya Heritage Museum is actually a collection of three beautifully restored houses arranged to look like a typical 19th-cenutry Baba-Nyonya residence. Excellent examples of Chinese-Palladian style, these townhouses, built in 1896, were transformed into a traditional Peranakan museum in later years; connected by a common covered footway, the museum features hand-painted tiles, elaborately carved teakwood outer swing doors and a sturdier internal door which provides extra security. &#xa;&lt;br&gt;Framed by Greco-Roman columns, two red lanterns, one bearing a household name and the other messages of good luck, hang on either side of the entrance.&#xa;The upper level of the house has a short canopy of Chinese tiles above the portico which frames the almost-Venetian shuttered windows. Boasting distinctively east-meets-west allure, the glass windows feature wrought-iron grilles and the eaves and fascias are covered with painted, floral designs. &#xa;&lt;br&gt;Inside the house there&#x2019;s a collection of gold-leaf fixtures, Chinese- and Dutch-design black wood furniture inlaid with mother of pearl as well as skilfully carved lacquer screens and Victorian chandeliers.&#xa;&lt;br&gt;The best parts of this tour are the guides who regal guests with Baba Nyonya tales of yore with noticeable Peranakan wit during the informative 45-minute tours.&#xa;&lt;br&gt;&lt;br&gt;Baba Nyonya Heritage Museum&#xa;&lt;br&gt;&#x2022;&#x9;Opening Hours: 10:00 &#x2013; 12:30 &amp; 14:00 &#x2013; 16:30 Monday - Saturdays&#xa;&lt;br&gt;&#x2022;&#x9;Address: 48-50 Jalan Tun Tan Cheng Lock, 75200.&#xa;&lt;br&gt;&#x2022;&#x9;Tel: +606 283 1273&#xa;&lt;h1&gt;&lt;font color=&quot;red&quot;&gt;A&apos;Famosa in Melaka&lt;/h1&gt;&#xa;&lt;br&gt;A&#x2019;Famosa is more than just quick photo stop opportunity for tourists. Built in 1511, the settlement used to sprawl across a whole hillside but now only a lone gate (Porta de Santiago) remains. One of the oldest surviving European architectural remains in Asia; it is set beside the Istana ke Sultanan on Jalan Kota.&#xa;&lt;br&gt;A&#x2019;Famosa is perhaps Malacca&#x2019;s best known sightseeing spot. Originally constructed by Alfonso de Albuquerque (who led the Portuguese invasion on the Malacca Sultanate), the remains of the fort is now a crumbling whitewashed gatehouse and is located downhill from St. Paul&#x2019;s Church.&#xa;&lt;h2&gt;Structure of A&apos;Famosa&lt;/h2&gt;&#xa;In the 16th century A&#x2019;Famosa housed the entire Portuguese administration, including its hospitals, five churches, elongated stockades and four key towers. One tower was a four-storey keep; the others were an ammunition storage room, captain&#x2019;s residence and an officer&#x2019;s quarters. &#xa;&lt;br&gt;The rest of the bastion comprised of townhouses clustered inside the fortress walls. The fort was expanded in 1586 to accommodate Malacca&#x2019;s growing population.&#xa;&lt;br&gt;&lt;br&gt;A&#x2019;Famosa Melaka&#xa;&lt;br&gt;&#x2022;&#x9;Location: Jalan Kota, Malacca.&#xa;&lt;h1&gt;&lt;font color=&quot;red&quot;&gt;Christ Church Melaka&lt;/h1&gt;&#xa;Christ Church  built by the Dutch when they took possession of Malacca from the Portuguese, it&apos;s one of Malacca&#x2019;s most defining structures. Situated along Jalan Gereja (also known as Church Street) it is an instantly recognizable brick-red building with a huge white cross at the top. Sitting opposite the Stadhuys, Christ Church was built in 1753 to celebrate a century of Dutch occupation. The interior of the cathedral has 200 year-old handmade pews, decorative fanlights and plaques that honour Dutch soldiers and locals.&#xa;&lt;h2&gt;Christ Church Information&lt;/h2&gt;&#xa;Christ Church is located near to Malacca&#x2019;s Chinatown centre. Across the bridge from the Jonker Street, it is one of the most popular sightseeing attractions in the Stadthuys area. A lot of colourful trishaws (You can pay to ride it) and directly opposite is the Historical Museum and Ethnographical Museum.&#xa;&lt;br&gt;The area is stepped in Baba Nyonya culture with opulent &#x2018;Baba merchants&#x2019; houses and elegantly-conserved Nyonya restaurants that line the constricted roads. Christ Church is small &#x2013; once inside, right beside the front doors there is a long table with brochures and religious paraphernalia for sale set up. There are about ten rows of pews before the main altar and the whole place has old light fixtures and plenty of worn-but-well-kept tiles.&#xa;&lt;h3&gt;Dutch occupation&lt;/h3&gt;&#xa;Besides its commemorative purpose, Christ Church was constructed due to the fact that when the Dutch first conquered Malacca, they had no place of worship other than St. Paul&#x2019;s Church, a small chapel built on St. Paul Hill.&#xa;&lt;br&gt;Later on, when the British took over Malacca they added a weathercock and bell to Christ Church and transformed it from a Protestant church into an Anglican one. Entrance into the basilica is free; it is not a big building and the interior is dark yet cosy, with dark polished wooden pews that face the altar and large timber crucifixes that hang on the walls. Meanwhile, outside the church is a beautiful collection of potted plants and a colourful group of trishaws lined up for tourists.&#xa; &lt;br&gt;&lt;br&gt;Christ Church Melaka&#xa;&lt;br&gt;&#x2022;&#x9;Address: Jalan Kota Melaka, Melaka.&#xa;&lt;h1&gt;&lt;font color=&quot;red&quot;&gt;River Of Bridges&lt;/h1&gt;&#xa;The Melaka River winds its way from Dutch Square and goes past Tan Boon Seng Bridge. During the Portuguese invasion of Malacca, they seized this bridge and cut off communications between the two sides of the river, effectively dividing Malacca into two and leading to Malacca&#x2019;s defeat.&#xa;&lt;br&gt;There are a few other bridges along the Melaka River worth mentioning. Besides the Tan Boon Seng Bridge, there is the &#x2018;Ghost Bridge of Malacca&#x2019; (a pedestrian bridge which links Kampung Pantai to Kampung Jawa) and the Old Market Bridge (which links Kampung Hulu to Jalan Kee Ann and the old Central Market). It used to be a picturesque scene of fishing boats berthed along the riverbanks here, but it is now mostly rows of Chinese restaurants. &#xa;&lt;br&gt;Fun fact: one of these restaurants was featured in the Hollywood blockbuster Entrapment, starring Sean Connery and Catherine Zeta Jones.&#xa;&lt;h2&gt;Chan Boon Cheng Bridge&lt;/h2&gt;&#xa;Also on the Melaka River is the historical Chan Boon Cheng Bridge. It used to be a concrete structure until major renovations in 1963 led to its current steel fa&#xe7;ade. In the early 20th century, it linked the old quarter of Chinatown (then known as Kampung Pantai) on the west side of the riverbank to the new quarter of Chinatown (via Jalan Bunga Raya) on the east side.&#xa;&lt;br&gt;The bridge is also known for its gruesome past. During the Japanese occupation, Japanese soldiers placed the severed heads of their victims at the foot of the bridge as a not-so-gentle reminder for locals to toe the line.&#xa;&lt;h2&gt;Kampung Morten&lt;/h2&gt;&#xa;After passing several more bridges, the Melaka River leads up to Kampung Morten: an old Malay settlement classified as a national heritage site. It is a typical Malay village, but is widely-recognised as a living museum with well-preserved traditional Malay architecture and a conservative olden-days lifestyle. &#xa;&lt;br&gt;A 17th century Portuguese cathedral called Church of Rosary is also located in Kampung Morten, though not much of the structure stood the test of time after Dutch colonials occupied Malacca in 1641.&#xa;&#xa;&#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &#xa;&lt;b&gt;Baba Nyonya Heritage Museum in Malacca&lt;/b&gt; &#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;b&gt;A&apos;Famosa in Melaka&lt;/b&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &#xa;&lt;b&gt;Christ Church Melaka&lt;/b&gt; &#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &#xa;&lt;b&gt;Melaka River&lt;/b&gt; &#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+    </Component>
+  </SubComponents>
+</Form>

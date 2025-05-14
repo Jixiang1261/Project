@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="600" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" alignment="0" min="-2" pref="160" max="-2" attributes="0"/>
+                  <Component id="jLabel6" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Component id="jLabel8" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel9" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jToggleButton1" min="-2" pref="73" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel7" min="-2" pref="150" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" min="-2" pref="76" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="26" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" pref="500" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+              <Component id="jToggleButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="jLabel3" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel7" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Component id="jLabel6" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel5" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="jLabel4" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel8" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Component id="jLabel9" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;h1&gt;&lt;font color=&apos;red&apos;&gt;Kinabalu National Park&lt;/h1&gt;Kinabalu Park, also known as Mount Kinabalu Park, is the first World Natural Heritage Site, located on the west coast of Sabah, 88 kilometres from Kota Kinabalu, about a two-hour drive. Covering an area of 754 square kilometres, the park is home to Mount Kinabalu, the highest mountain on Borneo at 4,095 metres. The park has well-preserved tropical rainforests, rare species of orchids and a variety of wildlife such as the great hornbill. It is one of the most popular tourist attractions in Malaysia. The park was inscribed on the UNESCO World Heritage List in December 2000.&lt;br&gt;Note: Entrance fee RM15 for adults; RM10 for children under 18 years old (other items are charged separately), free admission with Bolling Hot Spring ticket of the same day&lt;br&gt;&lt;br&gt;Location:Kinabalu Park in Ranau, Sabah, Malaysia&lt;br&gt;Contact:+60-88-523500&lt;br&gt;Opening Hours:Daily 7am - 5pm &lt;html&gt; &lt;h1&gt;&lt;font color=&apos;red&apos;&gt;\ud835\udc12\ud835\udc1e\ud835\udc26\ud835\udc29\ud835\udc28\ud835\udc2b\ud835\udc27\ud835\udc1a&lt;/h1&gt;Semporna is located on the south-eastern coast of Sabah, Malaysia and is home to many beautiful islands and beaches that are as &apos;perfect&apos; (Malay for perfect) as its name implies. With its turquoise waters, sandy beaches and some of the most beautiful diving spots in the world, Semporna is arguably as breathtaking as the Maldives but it must be noted that although Semporna is one of the most popular dive islands, diving at Pulau Sipadan requires a dive permit in order to protect the coral and natural ecology. Only 120 dive permits are issued daily. So if you plan to dive, make sure you arrange it properly to avoid unnecessary disappointment.&lt;br&gt;&lt;br&gt;Location:Semporna, Sabah, Malaysia&lt;html&gt; &lt;h1&gt;&lt;font color=&apos;red&apos;&gt;Tunku Abdul Rahman Park&lt;/h1&gt;Tunku Abdul Rahman Park is the first marine national park in Malaysia, located in the South China Sea off the coast of Kota Kinabalu, Sabah. Sulug Island is a group of five islands. The islands were officially designated as a Marine Ecological National Park in 1974 to protect the marine ecology of the area. In addition to the beautiful beaches and crystal clear waters, the islands are also home to a wide range of coral and marine life. The jungles of the islands are also home to many rare amphibians.&lt;br&gt;&lt;br&gt;Location:Tunku Abdul Rahman Park, Sabah, Malaysia&lt;br&gt;Contact:+60 88-486 430&lt;br&gt;Opening Hours:Daily 8am - 5pm&lt;html&gt; &lt;h1&gt;&lt;font color=&apos;red&apos;&gt;Gaya Street Sunday Market&lt;/h1&gt;Don&apos;t say you&apos;ve been to Kota Kinabalu until you&apos;ve been to the Sunday market! Every Sunday morning there is a weekend market in Gaya Street in the heart of Kota Kinabalu. Don&apos;t expect the usual pasar pagi, this market has a lot to offer, from clothes, food, jewellery, handicrafts and even pets, you name it, it has it.&lt;br&gt;&lt;br&gt;Location:Gaya Street Sunday Market, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah&lt;br&gt;Opening Hours:Sunday 6.30am - 1pm" containsInvalidXMLChars="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JToggleButton" name="jToggleButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;b&gt;Kinabalu National Park&lt;/b&gt; &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;b&gt;Semporna&lt;/b&gt; &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;b&gt;Tunku Abdul Rahman Rark&lt;/b&gt; &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;b&gt;Gaya StreeT Sunday Market&lt;/b&gt; &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+    </Component>
+  </SubComponents>
+</Form>

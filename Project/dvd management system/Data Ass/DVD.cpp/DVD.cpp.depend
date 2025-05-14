@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1635503634 source:c:\users\user\documents\data ass\dvd.cpp\main.cpp
+	<windows.h>
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<dos.h>
+	<time.h>
+

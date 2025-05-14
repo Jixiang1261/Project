@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="600" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel4" max="32767" attributes="0"/>
+                          <Component id="jLabel2" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jToggleButton1" alignment="1" min="-2" pref="105" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel3" min="-2" pref="112" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel5" min="-2" pref="121" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel8" min="-2" pref="149" max="-2" attributes="0"/>
+                              <EmptySpace pref="26" max="32767" attributes="0"/>
+                              <Component id="jLabel9" min="-2" pref="149" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel6" min="-2" pref="149" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jLabel7" min="-2" pref="149" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="jToggleButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="jLabel3" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel6" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Component id="jLabel7" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel4" alignment="1" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="jLabel5" min="-2" pref="30" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel8" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Component id="jLabel9" alignment="3" min="-2" pref="150" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+          <Component id="jScrollPane1" pref="500" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JToggleButton" name="jToggleButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;h1&gt;&lt;font color=&apos;red&apos;&gt;Cameron Highlands&lt;/h1&gt;Cameron is one of the most popular tourist destinations in Malaysia, with its cool weather, green tea plantations and farms, its tropical rainforest feel, and a place where many people go even in traffic, and is as good a place as Genting for a summer holiday. Cameron is a perfect place for families to visit.&lt;br&gt;&lt;br&gt;Location:Cameron Highlands, Pahang,Malaysia&lt;html&gt; &lt;h1&gt;&lt;font color=&apos;red&apos;&gt;Genting Highlands&lt;/h1&gt;Genting Highlands is located 50 kilometres north of Kuala Lumpur, on the border between Selangor and Pahang, at an altitude of more than 1700 metres, and is part of the Central Range. With an area of about 4,900 hectares and an average temperature of only 15 degrees Celsius, the plateau is one of the larger highland summer resorts in Southeast Asia and one of the major tourist destinations in Malaysia. Genting Highlands was developed in 1965 and was wholly owned by a Chinese Hokkien national. The plateau is a paradise of mountains, forests, fresh air and flowers. Before sunrise, the hills and mountains are covered in waves that stretch to the sky. At night, the lights look like stars in the sky, creating a mysterious scene. On a clear day, the view from the top of the plateau is breathtaking. There are hotels on the Genting Highlands, and visitors can choose to collapse halfway up the mountain or at the hotel at the top. The hotel is surrounded by an elaborate golf course and flower gardens, a small man-made pond with boats and a mini-tram. There is a huge variety of entertainment to keep your family entertained and entertained! This is why many people come here with their children on holiday. In addition, First World Hotel(Genting Highlands Hotel) is largest hotel in the world in 2015.&lt;br&gt;&lt;br&gt;Location:Genting Highlands, 69000 Genting Highlands, Pahang,Malaysia&lt;br&gt;Contact:+603-2718 1118&lt;br&gt;Operning Hours:Daily 24 hours&lt;html&gt; &lt;h1&gt;&lt;font color=&apos;red&apos;&gt;Taman Negara (Taman Negara Malaysia)&lt;/h1&gt;Gunung Tahan National Park (Taman Negara) was established in 1938 as the King George V National Park and is the largest nature reserve in Malaysia. It is also the most iconic national park in Malaysia. Covering a vast area along the border of the three states of Pahang, Kelantan and Terengganu, where Gunung Tahan is located, the national park covers an area of 4,343 square kilometers and is one of the oldest rainforests, estimated to be 130 million years old, older than the Congo and Amazon rainforests, and a warming house for many exotic flowers and animals.&lt;br&gt;&lt;br&gt;Location:Mount Tahan, Pahang,Malaysia&lt;br&gt;Operning Hours:Daily 9:30am &#x2013; 5:30pm  &lt;html&gt; &lt;h1&gt;&lt;font color=&apos;red&apos;&gt;Rainbow Waterfall&lt;/h1&gt;Malaysia is blessed with an abundance of waterfalls, but there is nothing quite like this Rainbow waterfall. On a particular time of the day, you will be able to see a rainbow formed across the cascading waterfall. This magical sight is something you have to witness for yourself.&lt;br&gt;&lt;br&gt;Location:Sungai Lembing: 4 x 4 to Lembing Rainbow Waterfall Trail, Pahang,Malaysia&lt;br&gt;Contact:+6019-944 6167"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;b&gt;Cameron Highlands&lt;/b&gt; &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;b&gt;Genting Highlands&lt;/b&gt; &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;b&gt;Taman Negara&lt;/b&gt; &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;b&gt;Rainbow Waterfall&lt;/b&gt; &lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+    </Component>
+  </SubComponents>
+</Form>

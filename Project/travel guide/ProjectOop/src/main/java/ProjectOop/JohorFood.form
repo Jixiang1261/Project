@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="722" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel5" min="-2" pref="263" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" min="-2" pref="128" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel9" max="32767" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel3" min="-2" pref="263" max="-2" attributes="0"/>
+                              <EmptySpace pref="67" max="32767" attributes="0"/>
+                              <Component id="jLabel7" min="-2" pref="249" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel2" min="-2" pref="204" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jButton1" alignment="1" min="-2" pref="73" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel6" min="-2" pref="161" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel2" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="jLabel6" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel7" pref="171" max="32767" attributes="0"/>
+                          <Component id="jLabel3" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel4" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                          <Component id="jLabel8" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel5" max="32767" attributes="0"/>
+                          <Component id="jLabel9" pref="169" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jScrollPane1" min="-2" pref="468" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="60" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;h1&gt;&lt;font color=&quot;red&quot;&gt;Restoran Woon Kiang&lt;/h1&gt; If you&#x2019;re wondering how kuey teow tasted like 80 years ago, you&#x2019;ve come to the right place. &lt;br&gt;Perfected over the ages, you won&#x2019;t be forgetting this meal any time soon. &lt;br&gt;They&#x2019;ve also perfected the art of cleaning pork intestines, so you will be able to enjoy it &lt;br&gt;without biting into a smelly batch (who doesn&#x2019;t hate that?) and you cannot miss the &lt;br&gt;smaller-than-usual kuey teow. Paired with herbal soup, it&#x2019;ll feel like heaven in your mouth. &lt;br&gt;With so many choices, the only way to try them all at once is to invite your friends to an &lt;br&gt;eating party! &lt;br&gt;&lt;br&gt;Address: Jalan Pandan 2, Taman Stulang, 80300 Johor Bahru, Johor  &lt;br&gt;Contact: +607-220 0310 &lt;br&gt;Opening hours: Monday to Saturday, 5pm&#x2013;4am; Sunday, 5.30pm&#x2013;4am. &lt;h1&gt;&lt;font color=&quot;red&quot;&gt;IT Roo Cafe&lt;/h1&gt; It&#x2019;s not a marketing ploy &#x2013; they were actually awarded this title in 2003, but this shop was established way back in 1961! &lt;br&gt;With both fried chicken chop and BBQ chicken chop, you can take your pick and opt for the homemade sauce or eat it as it is. Both are good either way! &lt;br&gt;While they might be famous for their chicken chop, their tom yam soup and fried rice are pretty good too. &lt;br&gt;&lt;br&gt;Address: 17 Jalan Dhoby, Johor Bahru, Johor, Malaysia. . &lt;br&gt;Contact: +607-2227780 &lt;br&gt;Opening hours: Daily, 12pm &#x2013; 9.30pm &lt;h1&gt;&lt;font color=&quot;red&quot;&gt;Restoran Min Corner&lt;/h1&gt; What do you do when you and your friends are craving for a variety of different kuehs, puffs, desserts and mains? &lt;br&gt;Why, you head to the crowd pleaser, Min Corner (established in 1977)! You&#x2019;ll find yourself spoilt for choice with selections like mee rebus, nasi lemak, bubur cha cha, char kuey teow along with other local delights. Having been in operation since 1977, you&#x2019;ll be sure to sample nothing less but &lt;br&gt;the most authentic tastes. &lt;br&gt;Address: 116, Jalan Pahlawan 2, Taman Ungku Tun Aminah, 81300 Skudai, Johor  &lt;br&gt;Opening hours: Tuesday to Sunday, 7am&#x2013;6pm (Closed on Mondays) &lt;br&gt;Contact: +6012-768 1573 &lt;h1&gt;&lt;font color=&quot;red&quot;&gt;Din Kee Beef Noodles&lt;/h1&gt; There is nothing that hits the spot more than a good bowl of beef brisket noodles on a rainy day or when you&#x2019;re just craving for beef! &lt;br&gt;Aside from the brisket, your delicious bowl is covered with tendon, cubes of meat and a smattering of other ingredients such as preserved veggies and even a handful of peanuts. There&#x2019;s so much meat that you can barely see the noodles below! You can also opt for either kuey teow, bee &lt;br&gt;hoon or yellow noodles.  &lt;br&gt;If you&#x2019;re not a fan of beef, there&#x2019;s also pork noodles, mutton noodles and Cantonese-style porridge. &lt;br&gt;Address: 56, Jalan Indah 1, Taman Bukit Indah, Johor Bahru  &lt;br&gt;Contact: +6016-736 1522 &lt;br&gt;Opening hours: Friday to Wednesday, 8am-4pm (Closed on Thursdays)    "/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;b&gt;Restoran Woon Kiang&lt;/b&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;b&gt;IT Roo Cafe&lt;/b&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;b&gt;Restoran Min Corner&lt;/b&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;b&gt;Din Kee Beef Noodles&lt;/b&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+    </Component>
+  </SubComponents>
+</Form>

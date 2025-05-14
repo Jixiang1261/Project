@@ -1,0 +1,55 @@
+#register_form h1 {
+    text-align: center;
+  }
+  body {
+    background: #A9D9C3;
+  }
+  #register_form {
+    width: 40%;
+    margin: 100px auto;
+    padding-bottom: 300px;
+    border: 1px solid #918274;
+    border-radius: 5px;
+    background: white;
+  }
+
+  #register_form input[type=text],[type=password],[type=email],[type=tel]{
+
+    width: 80%;
+    height: 35px;
+    margin: 5px 10%;
+    font-size: 1.1em;
+    padding: 4px;
+    font-size: .9em;
+  }
+
+  #register_form input[type=radio]{
+    vertical-align: middle;
+    width: 5%;
+    height: 20px;
+    padding: 50px;
+    margin: 10px;
+  }
+
+  .form_error span {
+    width: 80%;
+    height: 35px;
+    margin: 3px 10%;
+    font-size: 1.1em;
+    color: #D83D5A;
+  }
+  .form_error input {
+    border: 1px solid #D83D5A;
+  }
+  #reg_btn {
+    height: 35px;
+    width: 80%;
+    margin: 5px 10%;
+    color: white;
+    background: #3B5998;
+    border: none;
+    border-radius: 5px;
+  }
+#register_form h2 {
+    text-align: center;
+  }
